@@ -1,1 +1,0 @@
-# viralsyndrome.github.io
