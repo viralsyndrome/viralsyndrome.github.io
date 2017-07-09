@@ -49,7 +49,7 @@ body {
 /* Header CSS */
 header {
 	background-color: #000000;
-	background-image: url('wall.header.jpg');
+	background-image: url('/images/wall.header.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	font-family: Open Sans;
