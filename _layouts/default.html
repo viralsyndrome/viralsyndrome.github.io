@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us" itemscope itemtype="http://schema.org/Article">
+<head>
+	<title>{{ page.title }} | Viral Syndrome</title>
+	<!-- Standard Meta Tags -->
+	<meta name="author" content="Viral Syndrome Esports">
+	<meta name="description" content="{{ page.description }}">
+	<!-- Opengraph Meta Tags -->
+	<meta property="og:title" content="{{ page.title }}">
+	<meta property="og:description" content="{{ page.description }}">
+	<meta property="og:image" content="{{ page.image }}">
+	<meta property="og:url" content="http://viralsyndrome.github.io{{ page.url }}">
+	<!-- Website Protocols -->
+	<link rel="shortcut icon" href="favicon.png">
+	<link rel="stylesheet" href="/css/style.main.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+	<nav id="navigation">
+		<ul style="list-style-type: none;">
+			<li><a href="/"><i class="material-icons">home</i> <p>Home</p></a></li>
+			<li><a href="/about"><i class="material-icons">info</i> <p>About</p></a></li>
+		</ul>
+	</nav>
+	<header>
+	</header>
+	{{ contents }}
+	<footer>
+	</footer>
+</body>
