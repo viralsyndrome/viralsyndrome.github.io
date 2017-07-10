@@ -104,12 +104,14 @@ header h2 {
 	box-shadow: 3px 3px 5px #00aa00;
 	padding: 5px;
 }
+.article_data_area {
+	display: inline-block;
+}
 .article_title {
 	text-decoration: none;
 	color: #551a8b;
 	font-size: 22px;
 	transition: all 0.5s;
-	display: inline-block;
 }
 .article_title:hover {
 	color: #00aa00;
@@ -117,17 +119,18 @@ header h2 {
 .article_date {
 	color: #555555;
 	font-size: 14px;
-	display: inline-block;
 }
 .article_image {
 	width: 100%;
 	height: auto;
 }
+.article_icon_area {
+	display: inline-block;
+	vertical-align: top;
+}
 .article_icon {
 	width: 15%;
 	height: auto;
-	display: inline-block;
-	vertical-align: top;
 }
 
 /* Footer CSS */
