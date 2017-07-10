@@ -13,14 +13,14 @@ layout: nil
 		<pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
 		<lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
 
-		{% for post in site.posts %}
+		{% for article in site.articles %}
 		<item>
-			<title>{{ post.title }}</title>
-			<link>http://viralsyndrome.github.io{{ post.url }}</link>
-			<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+			<title>{{ article.title }}</title>
+			<link>http://viralsyndrome.github.io{{ article.url }}</link>
+			<pubDate>{{ article.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
 			<author>Viral Syndrome</author>
-			<guid>http://viralsyndrome.github.io{{ post.id }}</guid>
-			<description>{{ post.content | xml_escape }}</description>
+			<guid>http://viralsyndrome.github.io{{ article.id }}</guid>
+			<description>{{ article.content | xml_escape }}</description>
 		</item>
 		{% endfor %}
 	</channel>
