@@ -116,6 +116,10 @@ header h2 {
 	color: #555555;
 	font-size: 14px;
 }
+.article_image {
+	width: 100%;
+	height: auto;
+}
 
 /* Footer CSS */
 footer {
