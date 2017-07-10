@@ -2,6 +2,7 @@
 layout: default
 title: VSE hits Summoners Rift!
 summary: <b>Viral Syndrome</b> hit Summoners Rift officially as it's team roster queue's up in normal draft games with the club tag <b>[VSE]</b> to represent the team.
+wallpaper: http://na.leagueoflegends.com/sites/default/files/upload/art/teambuilder-wallpaper.jpg
 ---
 
 <div class="article">
