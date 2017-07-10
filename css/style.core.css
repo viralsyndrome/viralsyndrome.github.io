@@ -98,34 +98,34 @@ header h2 {
 
 /* News Article */
 .article {
-	border: 2px solid #551a8b;
-	border-radius: 0 0 25px 0;
-	box-shadow: 3px 3px 5px #00aa00;
+	background: #ffffff;
+	border: 2px solid #000000;
+	box-shadow: 3px 3px 5px #ff5000;
 	padding: 5px;
+	border-radius: 0 0 20px 0;
 }
 .article_image_area {
 	display: inline-block;
 	vertical-align: top;
 }
 .article_icon {
-	width: 10%;
-	border: 2px solid #551ab8;
+	background: #000000;
+	height: 55px;
+	box-shadow: 3px 3px 5px #ff5000;
+	border: 2px solid #000000;
+	border-radius: 15px;
 }
 .article_data_area {
 	display: inline-block;
 }
-.article-title {
-	font-size: 22px;
-	color: #551ab8;
-	transition: all 0.5s;
+.article_title {
+	font-family: Jockey One;
+	font-size: 24pt;
 	display: inline-block;
 }
-.article_title:hover {
-	color: #00aa00;
-}
 .article_date {
-	font-size: 14px;
-	color: #555555;
+	font-family: Jockey One;
+	font-size: 18pt;
 }
 
 /* Footer CSS */
