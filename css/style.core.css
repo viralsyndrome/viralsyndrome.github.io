@@ -103,9 +103,6 @@ header h2 {
 	box-shadow: 3px 3px 5px #00aa00;
 	padding: 5px;
 }
-.article_data_area {
-	display: inline-block;
-}
 .article_title {
 	text-decoration: none;
 	color: #551a8b;
@@ -128,13 +125,10 @@ header h2 {
 	width: 100%;
 	height: auto;
 }
-.article_icon_area {
-	display: inline-block;
-	vertical-align: middle;
-}
 .article_icon {
 	width: 15%;
 	height: auto;
+	vertical-align: top;
 }
 
 /* Footer CSS */
