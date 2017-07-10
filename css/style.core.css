@@ -120,6 +120,7 @@ header h2 {
 }
 .article_title {
 	font-size: 22pt;
+	color: #551a8b;
 	display: inline-block;
 	text-decoration: none;
 	transition: all 0.5s;
