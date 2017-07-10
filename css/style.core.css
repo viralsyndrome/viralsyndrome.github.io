@@ -108,7 +108,6 @@ header h2 {
 	color: #551a8b;
 	font-size: 22px;
 	transition: all 0.5s;
-	display: inline-block;
 }
 .article_title:hover {
 	color: #00aa00;
@@ -116,10 +115,8 @@ header h2 {
 .article_date {
 	color: #555555;
 	font-size: 14px;
-	display: inline-block;
 }
 .article_summary {
-	display: inline-block;
 }
 .article_image {
 	width: 100%;
