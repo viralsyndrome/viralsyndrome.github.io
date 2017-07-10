@@ -4,13 +4,13 @@ title: Home
 description: Home of all things Viral Syndrome
 image: /images/icon.social.png
 ---
-{% for article in site.articles %}
+{% for post in site.posts %}
 <div class="article">
-<a class="article_title" href="{{ BASE_PATH }}{{ article.url }}">{{ article.title }}</a>
+<a class="article_title" href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
 <br />
-<span class="article_date">{{ article.date | date_to_string }}</span>
+<span class="article_date">{{ post.date | date_to_string }}</span>
 <hr />
-<span class="article_summary">{{ article.summary }}</span>
+<span class="article_summary">{{ post.summary }}</span>
 </div>
 <br />
 {% endfor %}
