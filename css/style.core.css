@@ -10,21 +10,22 @@ body {
 	margin: 0;
 }
 section article {
-  padding: 0 1.5em;
+  	padding: 0 1.5em;
 }
 hr {
-    display: block;
-    height: 2px;
-    border: 0;
-    border-top: 2px solid #551a8b;
-    padding: 0; 
+    	display: block;
+    	height: 2px;
+    	border: 0;
+    	border-top: 2px solid #551a8b;
+    	padding: 0; 
+	display: inline-block;
 }
 #breaker {
 	display: block;
-    height: 10px;
-    border: 0;
-    border-top: 10px solid #551a8b;
-    padding: 0; 
+    	height: 10px;
+    	border: 0;
+    	border-top: 10px solid #551a8b;
+    	padding: 0; 
 }
 
 /* Navigation CSS */
@@ -108,6 +109,7 @@ header h2 {
 	color: #551a8b;
 	font-size: 22px;
 	transition: all 0.5s;
+	display: inline-block;
 }
 .article_title:hover {
 	color: #00aa00;
@@ -115,10 +117,13 @@ header h2 {
 .article_date {
 	color: #555555;
 	font-size: 14px;
+	display: inline-block;
 }
 .article_image {
 	width: 100%;
 	height: auto;
+	display: inline-block;
+	vertical-align: top;
 }
 
 /* Footer CSS */
